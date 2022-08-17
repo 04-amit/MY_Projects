@@ -1,0 +1,83 @@
+body {
+    background-color: hsl(217, 54%, 11%); 
+
+}
+
+.card {
+    background-color:  hsl(216, 50%, 16%);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border-style: unset;
+    text-align: center;
+    margin: 80px auto;
+    width: 335px;
+    padding: 19px 10px;
+
+}
+
+img {
+    width: 95%;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    width: 80%;
+    margin: 20px 10px;
+    font-size:20px;
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+	font-weight: 700;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    width: 80%;
+    margin: 20px 10px;
+    font-family: 'Outfit', sans-serif;
+	font-weight: 300;
+    text-align: left;
+}
+
+#coin {
+    float: left;
+}
+
+
+#pcoin {
+    display: inline;
+}
+
+#pclock {
+    display: inline;
+
+}
+
+.coin {
+    text-align: left;
+    float: left;
+    margin: 10px 10px;
+}
+
+.clock {
+    text-align: left;
+    float: left;
+    margin: 10px 10px;
+    position: relative;
+    left: 90px;
+}
+
+hr {
+    width: 95%;
+    color: hsl(215, 32%, 27%);
+}
+
+.avatar {
+    width: 30px;
+    float: left;
+    margin: 10px 10px;
+    border-width: 3px;
+    border-color: aliceblue;
+}
